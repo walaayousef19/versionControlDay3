@@ -32,7 +32,7 @@ namespace Day3versionControl
             {
                 endpoints.MapGet("/", async context =>
                 {
-                    await context.Response.WriteAsync("Hello from first branch!");
+                    await context.Response.WriteAsync("Hello from first branch from github!");
                 });
             });
         }
