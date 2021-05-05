@@ -32,7 +32,7 @@ namespace Day3versionControl
             {
                 endpoints.MapGet("/", async context =>
                 {
-                    await context.Response.WriteAsync("sconed modify");
+                    await context.Response.WriteAsync(" modify from github");
                 });
             });
         }
